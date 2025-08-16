@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Scraper</title>
+  <style>
+    /* Basic styling for the page */
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
+    input, button { padding: 0.5rem; font-size: 1rem; }
+    button { margin-left: 0.5rem; cursor: pointer; }
+    .product { border: 1px solid #ccc; padding: 1rem; margin: 1rem 0; display: flex; gap: 1rem; background: #fff; }
+    .product img { width: 100px; object-fit: contain; }
+  </style>
+</head>
+<body>
+  <h1>Amazon Scraper</h1>
+  <input type="text" id="keyword" placeholder="Search for a product..." />
+  <button id="searchBtn">Search</button>
+  <div id="results"></div>
+
+  <!-- Main frontend JS -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
